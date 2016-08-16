@@ -1,6 +1,16 @@
 {
 "com.badlogic.gdx.graphics.g2d.BitmapFont" : { 
-	"default-font": { "file": "Fonts/default.fnt" }
+	"default-font":		{ "file": "Fonts/default.fnt" },
+	"gothic.small":		{ "file": "Fonts/gothic.small.fnt" },
+	"gothic.medium": 	{ "file": "Fonts/gothic.medium.fnt" },
+	"gothic.big": 		{ "file": "Fonts/gothic.big.fnt" },
+	"lucida.small": 	{ "file": "Fonts/lucida.small.fnt" },
+	"lucida.medium": 	{ "file": "Fonts/lucida.medium.fnt" },
+	"lucida.big": 		{ "file": "Fonts/lucida.big.fnt" },
+	"gothic.10": 		{ "file": "Fonts/gothic.10.fnt" },
+	"gothic.12": 		{ "file": "Fonts/gothic.12.fnt" },
+	"lucida.10": 	{ "file": "Fonts/lucida.10.fnt" },
+	"lucida.12": 	{ "file": "Fonts/lucida.12.fnt" }
 },
 
 "com.badlogic.gdx.graphics.Color": {
@@ -27,11 +37,17 @@ com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
 	toggle: { down: default-round-down, checked: default-round-down, up: default-round }
 },
 com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
-	default: { down: default-round-down, up: default-round, font: default-font, fontColor: white },
+	default: { down: default-round-down, up: default-round, font: lucida.small, fontColor: white },
 	toggle: { down: default-round-down, up: default-round, checked: default-round-down, font: default-font, fontColor: white, downFontColor: red }
 },
 com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
-	default: { font: default-font, fontColor: white }
+	default: { font: default-font, fontColor: white },
+	lucida.big: { font: lucida.big, fontColor: white },
+	lucida.medium: { font: lucida.medium, fontColor: white },
+	lucida.small: { font: lucida.small, fontColor: white },
+	lucida.12: { font: lucida.12, fontColor: white },
+	lucida.10: { font: lucida.10, fontColor: white },
+	gothic.12: { font: gothic.12, fontColor: white }
 },
 
 com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
@@ -41,9 +57,34 @@ com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
 	default: { selection: selection, background: textfield, font: default-font, fontColor: white, cursor: cursor }
 },
 "com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle": {
-	"default": { "imageUp": "facebook", "imageDown": "twitter", "imageOver": "google" },
-	"Animal" : { "imageUp" : "animal", "imageDown": "twitter", "imageOver": "animal" },
-	"Ameba"	 : { "imageUp" : "ameba", "imageDown": "twitter", "imageOver": "ameba" }
+	"default": { "imageUp": "lion" },
+	"lion": { "imageUp" : "lion" },
+	"slark": { "imageUp" : "slark" },
+	"medusa": { "imageUp" : "medusa" },
+	"spirit": { "imageUp" : "spirit" },
+	"void": { "imageUp" : "void" },
+	"abbadon": { "imageUp" : "abbadon" },
+	"antimage": { "imageUp" : "antimage" },
+	"blood": { "imageUp" : "blood" },
+	"bristol": { "imageUp" : "bristol" },
+	"clok": { "imageUp" : "clok" },
+	"distruptor": { "imageUp" : "distruptor" },
+	"invoker": { "imageUp" : "invoker" },
+	"jegg": { "imageUp" : "jegg" },
+	"lesr": { "imageUp" : "lesr" },
+	"onmi": { "imageUp" : "onmi" },
+	"pudge": { "imageUp" : "pudge" },
+	"shadow": { "imageUp" : "shadow" },
+	"sniper": { "imageUp" : "sniper" }
+	button: { imageUp: button.normal , imageDown: button.press, imageOver: button.above}
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: { vScrollKnob: cursor }
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: { selection: selection, font: lucida.12, fontColorSelected: white, fontColorUnselected: white }
 },
 
 "com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle": {

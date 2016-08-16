@@ -198,32 +198,6 @@ white
   offset: 0, 0
   index: -1
 
-chibi.png
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-animal
-  rotate: false
-  xy: 1, 363
-  size: 446, 504
-  orig: 446, 504
-  offset: 0, 0
-  index: -1
-yogurt
-  rotate: false
-  xy: 1, 1
-  size: 375, 360
-  orig: 375, 360
-  offset: 0, 0
-  index: -1
-ameba
-  rotate: false
-  xy: 449, 517
-  size: 263, 350
-  orig: 263, 350
-  offset: 0, 0
-  index: -1
-
 atlas.png
 format: RGBA8888
 filter: Nearest,Nearest
@@ -279,3 +253,162 @@ transparent
   orig: 1, 1
   offset: 0, 0
   index: -1
+  
+monsters.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+abbadon
+  rotate: false
+  xy: 1, 155
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+antimage
+  rotate: false
+  xy: 1, 78
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+blood
+  rotate: false
+  xy: 109, 155
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+bristol
+  rotate: false
+  xy: 1, 1
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+clok
+  rotate: false
+  xy: 109, 78
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+distruptor
+  rotate: false
+  xy: 217, 155
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+invoker
+  rotate: false
+  xy: 109, 1
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+jegg
+  rotate: false
+  xy: 217, 78
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+lesr
+  rotate: false
+  xy: 325, 155
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+lion
+  rotate: false
+  xy: 217, 1
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+medusa
+  rotate: false
+  xy: 325, 78
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+onmi
+  rotate: false
+  xy: 433, 155
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+pudge
+  rotate: false
+  xy: 325, 1
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 433, 78
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+slark
+  rotate: false
+  xy: 541, 155
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+sniper
+  rotate: false
+  xy: 433, 1
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+spirit
+  rotate: false
+  xy: 541, 78
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+void
+  rotate: false
+  xy: 649, 155
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+  
+buttons.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+button.above
+  rotate: false
+  xy: 1, 297
+  size: 362, 146
+  orig: 362, 146
+  offset: 0, 0
+  index: -1
+button.normal
+  rotate: false
+  xy: 1, 149
+  size: 362, 146
+  orig: 362, 146
+  offset: 0, 0
+  index: -1
+button.press
+  rotate: false
+  xy: 1, 1
+  size: 362, 146
+  orig: 362, 146
+  offset: 0, 0
+  index: -1
+  
+  
