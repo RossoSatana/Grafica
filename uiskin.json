@@ -75,8 +75,21 @@ com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
 	"onmi": { "imageUp" : "onmi" },
 	"pudge": { "imageUp" : "pudge" },
 	"shadow": { "imageUp" : "shadow" },
-	"sniper": { "imageUp" : "sniper" }
-	button: { imageUp: button.normal , imageDown: button.press, imageOver: button.above}
+	"sniper": { "imageUp" : "sniper" },
+	login: { imageUp: login.n , imageDown: login.p , imageOver: login.a },
+	register: { imageUp: register.n , imageDown: register.p , imageOver: register.a },
+	exit: { imageUp: exit.n , imageDown: exit.p , imageOver: exit.a },
+	play: { imageUp: play.n , imageDown: play.p , imageOver: play.a },
+	team: { imageUp: team.n , imageDown: team.p , imageOver: team.a },
+	item: { imageUp: item.n , imageDown: item.p , imageOver: item.a },
+	equip: { imageUp: equip.n , imageDown: equip.p , imageOver: equip.a },
+	back: { imageUp: back.n , imageDown: back.p , imageOver: back.a },
+	ready: { imageUp: ready.n , imageDown: ready.p , imageOver: ready.a },
+	reset: { imageUp: reset.n , imageDown: reset.p , imageOver: reset.a },
+	in: { imageUp: in.n , imageDown: in.p , imageOver: in.a },
+	out: { imageUp: out.n , imageDown: out.p , imageOver: out.a },
+	back: { imageUp: back.n , imageDown: back.p , imageOver: back.a },
+	attack: { imageUp: attack.n , imageDown: attack.p , imageOver: attack.a }
 },
 
 com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
